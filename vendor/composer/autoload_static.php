@@ -7,19 +7,20 @@ namespace Composer\Autoload;
 class ComposerStaticInitf3358f9439fcd0f56faca132b6fd7ee7
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\imagine\\' => 12,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
@@ -31,9 +32,22 @@ class ComposerStaticInitf3358f9439fcd0f56faca132b6fd7ee7
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'n' => 
+        array (
+            'noam148\\imageresize\\' => 20,
+        ),
+        'm' => 
+        array (
+            'mongosoft\\soapclient\\' => 21,
+        ),
         'c' => 
         array (
+            'conquer\\services\\' => 17,
             'cebe\\markdown\\' => 14,
+        ),
+        'a' => 
+        array (
+            'alexandernst\\devicedetect\\' => 26,
         ),
         'W' => 
         array (
@@ -81,6 +95,10 @@ class ComposerStaticInitf3358f9439fcd0f56faca132b6fd7ee7
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\imagine\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-imagine/src',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii/src',
@@ -111,9 +129,25 @@ class ComposerStaticInitf3358f9439fcd0f56faca132b6fd7ee7
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
+        'noam148\\imageresize\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/noam148/yii2-image-resize',
+        ),
+        'mongosoft\\soapclient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mongosoft/yii2-soap-client',
+        ),
+        'conquer\\services\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/conquer/services',
+        ),
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'alexandernst\\devicedetect\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alexandernst/yii2-device-detect',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -198,6 +232,13 @@ class ComposerStaticInitf3358f9439fcd0f56faca132b6fd7ee7
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
         ),
+        'I' => 
+        array (
+            'Imagine' => 
+            array (
+                0 => __DIR__ . '/..' . '/imagine/imagine/lib',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 
@@ -210,6 +251,10 @@ class ComposerStaticInitf3358f9439fcd0f56faca132b6fd7ee7
             'Diff' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/php-diff/lib',
+            ),
+            'Detection' => 
+            array (
+                0 => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/namespaced',
             ),
         ),
         'C' => 
@@ -232,6 +277,7 @@ class ComposerStaticInitf3358f9439fcd0f56faca132b6fd7ee7
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
+        'Mobile_Detect' => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/Mobile_Detect.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/AssertionFailedError.php',
